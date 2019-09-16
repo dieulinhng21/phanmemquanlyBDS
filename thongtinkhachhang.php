@@ -6,7 +6,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-    
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -317,6 +316,54 @@
         <!-- END WRAPPER -->
     </div>
 <!--CHÈN CODE-->
+<div class="table-responsive-xl">
+  <table class="table table-bordered">
+     <thead class="thead-grey">
+    <tr>
+      <th scope="col">STT</th>
+      <th scope="col">TẦNG</th>
+      <th scope="col">CĂN</th>
+      <th scope="col">CĂN SỐ</th>
+      <th scope="col">TÌNH TRẠNG</th>
+      <th scope="col">HỌ TÊN</th>
+      <th scope="col">SÀN</th>
+      <th scope="col">SỐ HỢP ĐỒNG</th>
+      <th scope="col">NGÀY KÍ</th>
+      <th scope="col">CMT</th>
+      <th scope="col">HỘ KHẨU</th>
+      <th scope="col">ĐỊA CHỈ</th>
+      <th scope="col">SĐT</th>
+      <th scope="col">EMAIL</th>
+      <th scope="col">DIỆN TÍCH</th>
+      <th scope="col">ĐƠN GIÁ</th>
+      <th scope="col">TỔNG GIÁ TRỊ HỢP ĐỒNG</th>
+      <th scope="col">GHI CHÚ</th>
+      <th scope="col">VAY NGÂN HÀNG</th>
+      <th scope="col">NGÀY BÀN GIAO BÀN GIAO</th>
+    </tr>
+  </thead>
+  
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td colspan="2">Larry the Bird</td>
+      <td>@twitter</td>
+    </tr>
+  </tbody>
+  </table>
+</div>
     <!-- END MAIN CONTENT -->
     </div>
     <!-- END PAGE CONTENT -->
