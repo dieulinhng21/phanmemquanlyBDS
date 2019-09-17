@@ -6,7 +6,10 @@
             <name>phanmemquanlyBDS</name>
         </data>
         <spellchecker-wordlist xmlns="http://www.netbeans.org/ns/spellchecker-wordlist/1">
+            <word>giá</word>
             <word>hahah</word>
+            <word>lý</word>
+            <word>trạng</word>
         </spellchecker-wordlist>
     </configuration>
 </project>

@@ -222,7 +222,29 @@
 </div>
 <!--End Sidebar-->
 <body class="sidebar_menu top_nav_fixed">
+            <div id="page-wrapper">
+                <div class="graphs">
+                    <?php
+                    if (isset($_GET['quanli'])) {
+                        $tam = $_GET['quanli'];
+                    } else {
+                        $tam = '';
+                    }if ($tam == 'quanliduan') {
+                        include('modules/quanliduan/chinh.php');
+                    } else if ($tam == 'quanlichitietsp') {
+                        include('modules/quanlichitietsp/main.php');
+                    } else if ($tam == 'quanlimember') {
+                        include('modules/quanlimember/main.php');
+                    } else if ($tam == 'quanliorder') {
+                        include('modules/quanliorder/main.php');
+                    } else if ($tam == 'quanlitintuc') {
+                        include('modules/quanlitintuc/main.php');
+                    }
+                    ?>
 
+                </div>
+            </div> 
+</body>
 <!-- BEGIN PAGE-LOADER -->
 <div class="preloader">
     <div class="loading">
