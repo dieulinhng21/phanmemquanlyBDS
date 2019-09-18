@@ -1,6 +1,6 @@
 <?php
 include ('../../../config.php');
-$sql = "select * from duan order by ID_duan desc";
+$sql = "select * from duan order by idduan desc";
 $run = mysqli_query($conn, $sql);
 ?>
 <table width="100%" border="1">
@@ -19,13 +19,13 @@ $run = mysqli_query($conn, $sql);
         ?>
         <tr>
             <td><?php echo $i; ?></td>
-            <td><?php echo $dong['Ten'] ?></td>
-            <td><?php echo $dong['Tri_gia'] ?></td>
-            <td><?php echo $dong['So_toa_nha'] ?></td>
-            <td><?php echo $dong['Cong_ty_truc_thuoc'] ?></td>
-            <td><?php echo $dong['Tinh_trang'] ?></td>
-            <td><a href="index.php?quanli=quanliduan&ac=sua&id=<?php echo $dong['Id_duan'] ?>">Sửa</a></td>
-            <td><a href="modules/quanliduan/xuli.php?id=<?php echo $dong['Id_duan'] ?>"<i onclick="return confirm('Bạn có chắc chắn muốn xóa dự án này không?');">Xóa</a></td>
+            <td><?php echo $dong['tenduan'] ?></td>
+            <td><?php echo $dong['trigia'] ?></td>
+            <td><?php echo $dong['sotoanha'] ?></td>
+            <td><?php echo $dong['congtytructhuoc'] ?></td>
+            <td><?php echo $dong['tinhtrang'] ?></td>
+            <td><a href="index.php?quanli=quanliduan&ac=sua&id=<?php echo $dong['idduan'] ?>">Sửa</a></td>
+            <td><a href="modules/quanliduan/xuli.php?id=<?php echo $dong['idduan'] ?>"<i onclick="return confirm('Bạn có chắc chắn muốn xóa dự án này không?');">Xóa</a></td>
         </tr>      
         <?php
         $i++;
