@@ -80,13 +80,13 @@
         <!--End User Section-->
 
         <ul class="nav" id="side_nav">
-            <li class="nav-item has-sub-menu">
-                <a class="nav-link m-t-0" data-toggle="collapse" href="#taxi_master">
+            <li class="nav-item ">
+                <a class="nav-link" href="../phanmemquanlyBDS/assets/modules/quanliduan/lietke.php">
                     <p>
                         Quản Lý Dự Án
-                        <b class="caret"></b>
                     </p>
                 </a>
+                
                 <div class="collapse sub-menu" id="taxi_master">
                     <ul class="nav">
                         <li class="nav-item">
@@ -154,7 +154,7 @@
             </li>
 
 
-            <li class="nav-item has-sub-menu">
+<!--            <li class="nav-item has-sub-menu">
                 <a class="nav-link m-t-0" data-toggle="collapse" href="#taxi_registration">
                     <p>
                         Quản Lý Khách Hàng
@@ -176,7 +176,14 @@
                     </ul>
                 </div>
             </li>
-
+-->
+     <li class="nav-item ">
+         <a class="nav-link" href="../phanmemquanlyBDS/quanlykhachhang/index.php">
+                    <p>
+                        Quản Lý Khách Hàng
+                    </p>
+                </a>
+            </li>
 
 
             <li class="nav-item ">
