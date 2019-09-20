@@ -1,6 +1,6 @@
 <?php
 include ('../../../config.php');
-$sql = "select * from duan order by idduan desc = ".$_GET["id"];
+$sql = "select * from duan order by idduan desc =$_GET[id]";
 $run = mysqli_query($conn, $sql);
 $dong = mysqli_fetch_array($run);
 ?>
